@@ -14,5 +14,6 @@
 		"./FreeArray": "./FreeArray.ts",
 		"./Spring": "./Spring.ts",
 		"./UniqueId": "./UniqueId.ts"
-	}
+	},
+	"license": "MIT"
 }
