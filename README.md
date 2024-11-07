@@ -1,8 +1,6 @@
 # Web Modules
 
-Forked from @surfbryce/web-modules.
-
-Credits to @surfbryce for the original work.
+Forked from @surfbryce/web-modules and also added my own.
 
 ## Usage
 ```js
