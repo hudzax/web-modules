@@ -1,6 +1,6 @@
 {
 	"name": "@spikerko/web-modules", 
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"compilerOptions": {
 		"lib": [
 			"ESNext",
@@ -13,7 +13,8 @@
 		"./Scheduler": "./Scheduler.ts",
 		"./FreeArray": "./FreeArray.ts",
 		"./Spring": "./Spring.ts",
-		"./UniqueId": "./UniqueId.ts"
+		"./UniqueId": "./UniqueId.ts",
+		"./SpikyCache": "./SpikyCache.ts"
 	},
 	"license": "MIT"
 }
