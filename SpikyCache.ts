@@ -4,7 +4,7 @@ interface CacheOptions {
   name: string;
 }
 
-class SpikyCache {
+export class SpikyCache {
   private cacheName: string;
 
   constructor(options: CacheOptions) {

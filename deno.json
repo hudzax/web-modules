@@ -1,6 +1,6 @@
 {
 	"name": "@spikerko/web-modules", 
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"compilerOptions": {
 		"lib": [
 			"ESNext",
