@@ -2,7 +2,7 @@
 
 Forked from @surfbryce/web-modules and also added my own.
 
-## Usage
+## Usage in Deno
 ```js
 import { ... } from "jsr:@spikerko/web-modules/...";
 
