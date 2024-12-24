@@ -1,6 +1,6 @@
 {
 	"name": "@spikerko/web-modules", 
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"compilerOptions": {
 		"lib": [
 			"ESNext",
@@ -15,7 +15,8 @@
 		"./Spring": "./Spring.ts",
 		"./UniqueId": "./UniqueId.ts",
 		"./SpikyCache": "./SpikyCache.ts",
-		"./IntervalManager": "./IntervalManager.ts"
+		"./IntervalManager": "./IntervalManager.ts",
+		"./Animator": "./Animator.ts"
 	},
 	"license": "MIT"
 }
