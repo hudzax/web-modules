@@ -1,22 +1,19 @@
 {
-	"name": "@spikerko/web-modules", 
-	"version": "1.0.5",
-	"compilerOptions": {
-		"lib": [
-			"ESNext",
-			"DOM"
-		]
-	},
-	"exports": {
-		"./Maid": "./Maid.ts",
-		"./Signal": "./Signal.ts",
-		"./Scheduler": "./Scheduler.ts",
-		"./FreeArray": "./FreeArray.ts",
-		"./Spring": "./Spring.ts",
-		"./UniqueId": "./UniqueId.ts",
-		"./SpikyCache": "./SpikyCache.ts",
-		"./IntervalManager": "./IntervalManager.ts",
-		"./Animator": "./Animator.ts"
-	},
-	"license": "MIT"
+  "name": "@hudzax/web-modules",
+  "version": "1.0.5",
+  "compilerOptions": {
+    "lib": ["ESNext", "DOM"]
+  },
+  "exports": {
+    "./Maid": "./Maid.ts",
+    "./Signal": "./Signal.ts",
+    "./Scheduler": "./Scheduler.ts",
+    "./FreeArray": "./FreeArray.ts",
+    "./Spring": "./Spring.ts",
+    "./UniqueId": "./UniqueId.ts",
+    "./SpikyCache": "./SpikyCache.ts",
+    "./IntervalManager": "./IntervalManager.ts",
+    "./Animator": "./Animator.ts"
+  },
+  "license": "MIT"
 }
