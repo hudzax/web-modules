@@ -1,4 +1,4 @@
-import { Maid } from "./Maid";
+import { Maid } from "./Maid.ts";
 
 type EventCallback = (progress: number, start: number, end: number) => void;
 

@@ -23,7 +23,7 @@ export class SpikyCache {
     const normalizedKey = this.normalizeKey(key);
     let body: BodyInit | null = null;
     let contentType: string | undefined = undefined;
-  
+
     if (typeof value === "string") {
       body = value;
       contentType = "text/plain";
@@ -37,17 +37,17 @@ export class SpikyCache {
       body = value.toString();
       contentType = "text/plain";
     }
-  
+
     try {
       const cache = await caches.open(this.cacheName);
-  
+
       let headers: HeadersInit = {};
       if (contentType) {
         headers["Content-Type"] = contentType;
       }
-  
+
       const response = new Response(body, { headers });
-  
+
       if (expirationTTL) {
         response.headers.append("Cache-Control", `max-age=${expirationTTL}`);
       }

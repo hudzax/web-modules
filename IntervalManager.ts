@@ -1,4 +1,4 @@
-import { Maid, Giveable } from './Maid';
+import { Maid, Giveable } from "./Maid.ts";
 
 class IntervalManager implements Giveable {
   private maid: Maid;
